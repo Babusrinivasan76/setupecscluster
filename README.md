@@ -24,7 +24,7 @@
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/11-CreateServices-ApplLoadBalancer.png)
   5.Create a new Security Group and assign the routing IP
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/12-CreateServices-ApplLoadBalancer.png)
-  6.Configure the Target Grop and Health Checks in "Configuration Routing"
+  6.Configure the Target Grop and Health Checks in "Configure Routing"
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/13-CreateServices-ApplLoadBalancer.png)
   7.Select the VPC and Port in "Register Targets"
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/14-CreateServices-ApplLoadBalancer.png)
@@ -32,6 +32,7 @@
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/15-CreateServices-ApplLoadBalancer.png)
   9.Ensure the Load Balancer is created successfully
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/16-CreateServices-ApplLoadBalancer.png)
+  test
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/17-CreateServices-ApplLoadBalancer.png)
 
 ### Step3: Create ECS Cluster
