@@ -37,26 +37,42 @@
 
 ### Step3: Create ECS Cluster
 
+1. Search for "ECS" in the AWS Console and Select "Elastic Container Services"
+![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/00createECSCluster.png)
+2.select the "Clusters" from the left side menu and click "Create"
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/01-CreateServices-ConfigServices.png)
+3.Select "Fargate" and provide the configuration details
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/02-CreateServices-ConfigServices.png)
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/03-CreateServices-ConfigServices.png)
+4. After selecting the configurations, click "Next Step"
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/04-CreateServices-ConfigServices.png)
 
 ### Step4: Configure Services - Network, Load Balancer
 
+5. Configure the Network Details
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/05-CreateServices-ConfigNetwork.png)
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/06-CreateServices-ConfigNetwork.png)
-
-
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/07-CreateServices-ApplLoadBalancer.png)
+
+6. Select the Load Balancer from the drop down and configure other parameters. Click "Next Step"
+![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/18-CreateServices.png)
+
+7. If the Application Load Balancer is not set up (shown in red) , click on the EC2 console and setup the Load balancer as instructed in Step2
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/08-CreateServices-ApplLoadBalancer.png)
 
-![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/18-CreateServices.png)
+8. Configure other parameters
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/19-CreateServices.png)
+9. Configure the Auto-Scaling
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/20-CreateServices-AutoScaling.png)
+10. Review the details and Click "Create Services"
+![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/21-CreateServices-Review.png)
+![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/22-CreateServices-Completion.png)
+11. Ensure all the services are created successfully
+![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/23-CreateServices-Completion.png)
+
 
 ### Step5: Configure Task
-
+1.Navigate to "Task Definitions" and click "Create new Task definition"
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/01.createecscluster-task.png)
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/02.createecscluster-task.png)
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/03.createecscluster-task.png)
@@ -65,6 +81,3 @@
 
 ### Step6: Review and Create
 
-![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/21-CreateServices-Review.png)
-![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/22-CreateServices-Completion.png)
-![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/23-CreateServices-Completion.png)
