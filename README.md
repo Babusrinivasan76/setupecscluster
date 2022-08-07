@@ -16,16 +16,21 @@
 ### Step2: Create Application Load Balancer
 
   1. Select  "Load Balancers" on the left side menu of EC2 services.
-  2. 
-  
-
+  2. clicke "Create" button in the "Application Load Balancer"
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/09-CreateServices-ApplLoadBalancer.png)
+  3. Select the Name, Scheme, IP Address type, Listeners and Availability Zones
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/10-CreateServices-ApplLoadBalancer.png)
+  4.Leave the "Configuration Security Settings" as default
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/11-CreateServices-ApplLoadBalancer.png)
+  5.Create a new Security Group and assign the routing IP
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/12-CreateServices-ApplLoadBalancer.png)
+  6.Configure the Target Grop and Health Checks in "Configuration Routing"
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/13-CreateServices-ApplLoadBalancer.png)
+  7.Select the VPC and Port in "Register Targets"
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/14-CreateServices-ApplLoadBalancer.png)
+  8.Review the Details and click "Create"
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/15-CreateServices-ApplLoadBalancer.png)
+  9.Ensure the Load Balancer is created successfully
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/16-CreateServices-ApplLoadBalancer.png)
   ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/17-CreateServices-ApplLoadBalancer.png)
 
