@@ -74,9 +74,11 @@
 ### Step5: Configure Task
 1.Navigate to "Task Definitions" and click "Create new Task definition"
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/01.createecscluster-task.png)
+2.Configure the Task Definition details
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/02-createecscluser-task.png)
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/03-createecscluser-task.png)
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/04-createecscluser-task.png)
+3.Click Create
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/05-createecscluser-task.png)
 
 
