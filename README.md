@@ -38,16 +38,16 @@
 
 ### Step4: Configure Services - Network, Load Balancer
 
-https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/05-CreateServices-ConfigNetwork.png
-https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/06-CreateServices-ConfigNetwork.png
+![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/05-CreateServices-ConfigNetwork.png)
+![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/06-CreateServices-ConfigNetwork.png)
 
 
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/07-CreateServices-ApplLoadBalancer.png)
 ![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/application%20load%20balancer/08-CreateServices-ApplLoadBalancer.png)
 
-https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/18-CreateServices.png
-https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/19-CreateServices.png
-https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/20-CreateServices-AutoScaling.png
+![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/18-CreateServices.png)
+![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/19-CreateServices.png)
+![](https://github.com/Babusrinivasan76/setupecscluster/blob/main/images/20-CreateServices-AutoScaling.png)
 
 ### Step5: Configure Task
 
